@@ -5,9 +5,12 @@ var Main = (props) => {
     return(
             <div>
             <Nav/>
-            <h2>Main Component</h2>
+            <div className="row">
+            <div className="colums medium-6 large-4 small-centered">
             {props.children}
-        </div>
+            </div>
+            </div>
+            </div>
     );
 };
 
