@@ -57,7 +57,7 @@ if (typeof errorMessage === 'string') {
 
         return (
                 <div>
-                <h3 className="text-center">Weather Component</h3>
+                <h3 className="text-center page-title">Weather Component</h3>
                 <GetForm onSearch={this.handleSearch}/>
                 {renderMessage()}
             {renderError()}
